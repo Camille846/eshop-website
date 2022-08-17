@@ -1,0 +1,103 @@
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    height: 80px;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+.header__logo{
+    color: #ff9f00;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+.header__logoImage{
+    margin-right: .625rem;
+}
+
+.header__logoTitle {
+    text-decoration: none;
+    border: 0;
+    color: #e1e1e1;
+}
+
+.header__search{
+    flex: 1;
+    margin: 0 .625rem;
+}
+
+.header__searchInput{
+    border: none;
+    outline: none;
+    height: 12px;
+    padding: 10px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.header__searchIcon{
+    font-size: 1.375rem;
+    background-color: #ff9f00;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__item{
+    color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    margin-right: .625rem;
+    margin-left: .625rem;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.nav__itemLineOne{
+    font-size: .625rem;
+}
+
+.nav__itemLineTwo{
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.basketItem{
+    flex-direction: row;
+    column-gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.header__basketIcon{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.CheckoutLink{
+    color: white;
+    display: flex;
+    column-gap: .3rem;
+}
+.HomeLink{
+    color: white;
+}
