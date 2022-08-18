@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.checkoutProduct__container{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #0F1111;
+}
+.checkoutProduct__header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    padding: 10px;
+}
+
+.checkout__title{
+    font-weight: 500;
+}
+
+.checkout__subtitle{
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 5px;
+    color: #565959;
+}
+
+.checkoutProduct__img{
+    max-height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.checkoutProduct{
+    display: flex;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkoutProduct__info{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.checkoutProduct__title{
+    font-size: 18px;
+}
+
+.checkoutProduct__subtitle{
+    font-size: 10px;
+    color: #007600;
+    line-height: 16px;
+}
+
+.checkoutProduct__infoLeftSide{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.checkoutProduct__infoRightSide{
+    text-align: right;
+}
+
+.checkoutProduct__priceRow{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.checkoutProduct__btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: .5rem;
+    margin-top: 1rem;
+}
+
+.checkoutProduct__Btn{
+    cursor: pointer;
+    color:#007185;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.checkoutProduct__Btn:hover{
+    text-decoration: underline;
+}
+
+.checkoutProduct__separator{
+    content: '';
+    display: inline-block;
+    background-color: #ddd;
+    margin: -2px .67375em 0;
+    height: 14px;
+    width: 1px;
+    vertical-align: middle;
+}
+
+.checkoutProduct__select{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.checkoutProduct__select #quantity{
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.checkoutProduct__rating{
+    display: flex;
+    color: #ff9f00;
+}
+
+.checkoutProduct__gift {
+    font-size: 12px;
+}
+
+.checkoutProduct__giftInput {
+    font-size: 12px;
+    margin-right: 5px;
+}

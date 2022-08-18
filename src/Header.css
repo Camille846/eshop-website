@@ -11,8 +11,6 @@
     z-index: 100;
 }
 
-
-
 .header__logo{
     color: #ff9f00;
     margin: 0 1.5rem;
@@ -67,12 +65,12 @@
 }
 
 .nav__itemLineOne{
-    font-size: .625rem;
+    font-size: .75rem;
 }
 
 .nav__itemLineTwo{
-    font-size: .8rem;
-    font-weight: 800;
+    font-size: .875rem;
+    font-weight: 700;
 }
 
 .basketItem{
