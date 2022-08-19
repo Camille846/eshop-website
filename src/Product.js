@@ -1,8 +1,24 @@
 import React from 'react'
 import './Product.css';
 import { BsFillStarFill } from "react-icons/bs";
+import { useStateValue } from './StateProvider';
 
 const Product = ({id, title, price, rating, image}) => {
+
+  const [state, dispatch] = useStateValue();
+
+  const addTobasket = () => {
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: {
+        id: id,
+        image: image,
+        price: price,
+        rating: rating,
+      },
+    });
+  }
+
   return (
     <div className='product__container'>
       <div className="product">
@@ -20,7 +36,7 @@ const Product = ({id, title, price, rating, image}) => {
             </div>
           </div>
         </div>
-        <button className="product__addButton">Add to cart</button>
+        <button className="product__addButton" onClick={addTobasket}>Add to cart</button>
       </div>
     </div>
   )
