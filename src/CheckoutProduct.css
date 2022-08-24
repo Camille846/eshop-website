@@ -7,9 +7,9 @@
     background-color: #fff;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     color: #0F1111;
 }
+
 .checkoutProduct__header{
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@
 .checkout__subtitle{
     font-size: 14px;
     position: absolute;
-    right: 0;
+    right: 20px;
     bottom: 0;
     padding-bottom: 5px;
     color: #565959;
