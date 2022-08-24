@@ -22,10 +22,12 @@ function Header() {
                 <BiSearch className='header__searchIcon' />
             </div>
             <div className="header__nav">
+            <Link to='/Login' style={{ textDecoration: "none" }}>
                 <div className="nav__item">
-                <span className="nav__itemLineOne">Hello, Guest</span>
-                <span className="nav__itemLineTwo">Sign In</span>
-
+                    <span className="nav__itemLineOne">Hello, Guest</span>
+                    <span className="nav__itemLineTwo">Sign In</span>
+                </div>
+            </Link>
             </div>
             <div className="nav__item">
                 <span className="nav__itemLineOne">Returns &</span>
@@ -39,7 +41,6 @@ function Header() {
                 <span className="nav__itemLineTwo nav__basketCount">{basket.length}</span>
                 </Link>
             </div>
-        </div>
         </div>
     )
 }
