@@ -10,6 +10,7 @@ import App from './App';
 import Checkout from "./Checkout";
 import Home from "./Home";
 import Header from "./Header";
+import Login from "./Login";
 import reducer, { initialState } from './reducer'
 import { StateProvider } from './StateProvider';
 
@@ -20,6 +21,7 @@ root.render(
     <Header />
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="login" element={<Login />} />
       <Route path="Checkout" element={<Checkout />} />
       <Route path="Home" element={<Home />} />
     </Routes>
